@@ -3,30 +3,105 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>P Kearney Bio</title>
+    <title>Patrick's BS Contact</title>
     <link rel="stylesheet" href="assets/css/reset.css">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/contact.css">
 </head>
 
 <body>
     <!--Start Header Section-->
-        <header>
+        <!--<header>
 
+        </header>-->
+        <header id="masthead">
+          <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="#">Patrick Kearney</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav">
+                    <li class="nav-item">
+                      <a class="nav-link" href="index.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+            </div>
+            
         </header>
     
     <!--End Header Section-->
     <!--Start Main Body-->
-
-        <div class="container" id="main_division">
+        <!-- <Start Main Column"> -->
+        <div id="main-container" class="container">
+            <div class="row justify-content-around">
+                <!--<div class="col-12 col-md-8 main-column">-->
+                    <form class="col-12 col-md-8 main-column">
+                    <h1>Contact</h1>
+                    <!-- Created from two pieces of code on the Bootstrap 4 site.-->
+                    <!--<form>-->
+                        <div class="form-group">
+                            <label for="exampleFormControlInput1">Name</label>
+                            <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="Alex Smith">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlInput1">Email address</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="asmith@ freeagent.com">
+                        </div>
+                
+                        <div class="form-group">
+                          <label for="exampleFormControlTextarea1">Leave a message!</label>
+                          <textarea class="form-control" id="exampleFormControlTextarea1" rows="4"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                <!--</div>-->
+                    
 
             
+        <!--End Main Column-->
+        <!--Start Sidebar-->
+        <!--Not sure if I like it, but I played around with making the icons img-fluid as well.-->
+                <div class="col-12 col-md-3 sidebar">
+                    <h2>Connect with Me</h2>
+                    <div class="row">
+                        <div class="col-4">
+                        <a href="https://github.com/pckearney25">
+                            <img src="assets/images/github-128.png" class="img-fluid" alt="Github">
+                        </a>
+                        </div>  
+                        <div class="col-4">
+                        <a href="https://www.linkedin.com/in/patrickckearney/">
+                            <img src="assets/images/linkedin-128.png"  class="img-fluid" alt="Github">
+                        </a>
+                         </div>   
+                        <div class="col-4">
+                        <a href="https://stackoverflow.com/users/9205863/pckearney"></a>
+                            <img src="assets/images/stackoverflow-128.png" class="img-fluid" alt="Github">
+                        </a>
+                        <div>
+                    </div>       
+                </div>
+            </div>
+        <!--End Sidebar-->
         </div>
-
-    <!--End Main Section-->
+    
+    <!--End Main Body-->
     <!--Start Footer-->   
 
-        <footer>
-            &copy; Copyright 2018 Patrick Kearney
+        <footer class="footer">
+            <div class="container">
+              <span>&copy; Copyright 2018 Patrick Kearney</span>
+            </div>
         </footer>
 
     <!--End Footer--> 
