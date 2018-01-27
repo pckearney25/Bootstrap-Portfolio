@@ -1,0 +1,197 @@
+/* Here we go. Deep breath. */
+
+body {
+font-family: Arial, Helvetica, sans-serif;
+background-image: url("../images/concrete_seamless.png");
+}
+/*BEGIN HEADER SECTION definition of selectors and properties for all html docs in the repo.*/
+
+header {
+    background-color: #ffffff;
+    border-bottom: 2px;
+    border-bottom-color: #777777;
+    border-bottom-style: solid;
+    }
+
+    /*Defines a container for content to be centered in header. This will also be used for the main content on the page.*/
+    .container {
+        width: 960px;
+        margin: 0 auto;
+        }
+
+    /* This will also set h1 in the main content on the page.*/
+    h1 {
+        font-size: 26px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+
+        /*Defines the unique features of this h1*/
+        #name-box {
+            background-color: #4aaaa5;
+            color: #ffffff;
+            padding: 22px;
+            display: inline-block;
+        }
+    
+    /* Builds and defines the in-line navigation links in the header. UNCLEAR if these can be reused in main content sidebar, but will try.*/       
+    ul {
+        list-style-type: none;
+        margin-top: 24px;
+        padding: 0;
+        }
+
+        /*Defines unique properties of this unordered list*/
+        #nav-links {
+            float: right      
+        }
+        
+        li {
+        display: inline;
+        }
+
+        /*styling for hyperlink tags*/
+        a:link {text-decoration: none; color:#666666}
+        a:visited {text-decoration: none; color:#666666}
+        a:hover {text-decoration: underline; color: purple}
+        a:active {background-color: #777777}
+
+            /*Styles the unique unordered list items here.*/
+
+            #liLeft {
+                padding-right: 15px;
+                margin: 10px;
+            }
+
+            #liCenter {
+                padding-left: 15px;
+                padding-right: 15px;
+                margin-right: 10px;
+                border-left: 1px;
+                border-left-color: #777777;
+                border-left-style: solid;
+            }
+
+            #liRight {
+                padding-left: 15px;
+                border-left: 1px;
+                border-left-color: #777777;
+                border-left-style: solid;
+            }
+}
+/*END HEADER SECTION definition of elements and selectors.*/
+
+/*BEGIN MAIN CONTENT SECTION definition of elements and selectors.*/
+/*Consists of a section and a sidebar positioned within the .container defined above. Both the styles and positionings of the section and sideber are consistent throughout the html documents of the repo and can be resued throughout all three docs.*/
+
+.main_division {
+    background-image: url("../images/concrete_seamless.png");
+    clear: both;
+    margin: 0 auto;
+    overflow: auto;
+    }
+    /*General styling of the <section> used in the index, portfolio, and contact htmls.*/
+    /*There may be minor differences in values vs. the posted example.*/
+
+        #aboutsection {
+        background-color: #ffffff;
+        width: 650px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        padding-right: 24px;
+        padding-left: 24px;
+        border: 1px;
+        border-color: #777777;
+        border-style: solid;
+        box-sizing: border-box;
+        float: left;
+        }
+
+            #bio-image {
+                margin-right: 20px;
+                width: 250px;
+                height: 250px;
+                float: left;
+            }
+
+            #content-headline {
+                color: #4aaaa5;
+                padding-top: 18px;
+                padding-bottom: 18px;
+                margin-top: 6px;
+                margin-bottom: 28px;
+                border-bottom: 2px;
+                border-bottom-color: #777777;
+                border-bottom-style: solid;
+                }
+
+            #about-text {
+                color: gray;
+                line-height: 150%;
+                margin-top: 0;
+                padding-bottom: 36px;
+                }
+
+/*Begin styling of the social media sidebar.*/
+
+        sidebar {
+            background-color: #ffffff;
+            width: 270px;
+            padding-right: 28px;
+            padding-left: 28px;
+            margin-top: 40px;
+            float: right;
+            border: 1px;
+            border-color: #777777;
+            border-style: solid;
+            box-sizing: border-box;
+            }
+
+            h2 {
+                font-size: 18px;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                color: #4aaaa5;
+                padding-top: 24px;
+                padding-bottom: 22px;
+                margin-top: 6px;
+                margin-bottom: 22px;
+                border-bottom: 2px;
+                border-bottom-color: #777777;
+                border-bottom-style: solid;
+                }
+            
+            #iconListFormat {
+                padding-bottom: 40px;
+                margin: 0 auto 0;
+                }
+
+            .icon {
+            width:  60px;
+            height: 60px;
+            }
+
+            #iconLeft {
+                padding-right: 11px;
+                
+            }
+
+            #iconCenter {
+                padding-right: 11px;
+            }
+
+            #iconRigth {
+            }
+footer {
+    clear: both;
+    background-color: #666666;
+    color: #777777;
+    font-size: 12px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 40px;
+    border-top: 10px;
+    border-color:#4aaaa5;
+    border-top-style: solid;
+    }
