@@ -1,32 +1,119 @@
 <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en-us">
 
 <head>
     <meta charset="UTF-8">
-    <title>P Kearney Bio</title>
+    <title>Patrick's BS Portfolio</title>
     <link rel="stylesheet" href="assets/css/reset.css">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/portfolio.css">
 </head>
 
 <body>
     <!--Start Header Section-->
-        <header>
+        <!--<header>
 
-        </header>
+        </header>-->
+        <header id="masthead">
+          <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="#">Patrick Kearney</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav">
+                    <li class="nav-item">
+                      <a class="nav-link" href="index.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+            </div>
+            
+          </header>
     
     <!--End Header Section-->
     <!--Start Main Body-->
+        <!-- <Start Main Column"> -->
+        <!-- This is funcrtional, but I would like to play around more to see if I can get the spacings equal and to see if I can make the background images for cells with banners identifying the portfolios .img-fluid as well.-->
+        <div id="main-container" class="container">
+            <div class="row justify-content-around">
+                <div class="col-12 col-md-8 main-column">
 
-        <div class="container" id="main_division">
+                    <h1>Portfolio</h1>
+                        
+                        <div class="row portfolio-row">
+                            <div class="col-sm-6">
+                                <img src="assets/images/science.jpg" class="img-fluid" alt="Science">
+                            </div>
+                            <div class="col-sm-6">
+                                <img src="assets/images/cooking.jpg" class="img-fluid" alt="Cooking">
+                            </div>
+                        </div>
 
-            
-        </div>
+                        <div class="row portfolio-row">
+                            <div class="col-sm-6">
+                                <img src="assets/images/gardening.jpg" class="img-fluid" alt="Gardening">
+                            </div>
+                            <div class="col-sm-6">
+                                <img src="assets/images/fitness.jpg" class="img-fluid" alt="Fitness">
+                            </div>
+                        </div> 
 
-    <!--End Main Section-->
+                        <div class="row portfolio-row">
+                                <div class="col-sm-6">
+                                    <img src="assets/images/apiary.jpg" class="img-fluid" alt="Apiary">
+                                </div>
+        
+                                <div class="col-md-6">
+        
+                                </div>
+                </div> 
+                    
+
+            </div>
+        <!--End Main Column-->
+        <!--Start Sidebar-->
+        <!--Not sure if I like it, but I played around with making the icons img-fluid as well.-->
+                <div class="col-12 col-md-3 sidebar">
+                    <h2>Connect with Me</h2>
+                    <div class="row">
+                        <div class="col-4">
+                        <a href="https://github.com/pckearney25">
+                            <img src="assets/images/github-128.png" class="img-fluid" alt="Github">
+                        </a>
+                        </div>  
+                        <div class="col-4">
+                        <a href="https://www.linkedin.com/in/patrickckearney/">
+                            <img src="assets/images/linkedin-128.png"  class="img-fluid" alt="Github">
+                        </a>
+                         </div>   
+                        <div class="col-4">
+                        <a href="https://stackoverflow.com/users/9205863/pckearney"></a>
+                            <img src="assets/images/stackoverflow-128.png" class="img-fluid" alt="Github">
+                        </a>
+                        <div>
+                    </div>       
+                </div>
+            </div>
+        <!--End Sidebar-->
+            </div>
+    </div>
+    <!--End Main Body-->
     <!--Start Footer-->   
 
-        <footer>
-            &copy; Copyright 2018 Patrick Kearney
+        <footer class="footer">
+            <div class="container">
+              <span>&copy; Copyright 2018 Patrick Kearney</span>
+            </div>
         </footer>
 
     <!--End Footer--> 

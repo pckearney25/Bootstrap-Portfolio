@@ -89,6 +89,7 @@ p { font-size: 16px;}
       border-top: 8px solid #4aaaa5;  
     
     }
+
     /* sidebar */
     
     .sidebar {
@@ -97,7 +98,8 @@ p { font-size: 16px;}
       margin-bottom: 20px;
       background: #fff;
       border: 1px solid #ddd;
-      max-height: 300px;
+      max-width: 100%;
+      height: 200px;
     } 
   
     h3,
@@ -109,8 +111,8 @@ p { font-size: 16px;}
     }
     
     .social {
-      width: 62px;
-      height: 62px;
+      width: 60px;
+      height: 60px;
       margin-top: 8px;
       margin-right: 5px;
     }
@@ -125,22 +127,34 @@ p { font-size: 16px;}
     #main-container {
       padding-top: 100px;
     }
-
     
     .main-column {
-      /*float: left;
-      width: 100%;*/
-      max-width: 650px;
-      padding: 30px;
-      margin: 0 0 40px;
-      background: #fff;
-      border: 1px solid #ddd;
+        /*float: left;
+        width: 100%;*/
+        max-width: 650px;
+        padding: 30px;
+        margin: 0 0 40px;
+        background: #fff;
+        border: 1px solid #ddd;
+      }
+    
+    .portfolio-row {
+      margin-top: 10px;
+    }
+    .img-fluid{ 
+        max-width: 100%;
+        height: auto;
     }
 
-    #bio-image {
-      margin-right: 20px;
-      width: 250px;
-      height: 250px;
-      float: left;
-  
+    .folio1 {
+        float: left;
+    }
+
+    .folio2 {
+        float: right;
+    }
+    .folio-image-size {
+        height: 200px;
+        width: 270px;
+    }
     
